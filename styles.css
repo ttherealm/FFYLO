@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Raleway:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
+}
+
+#Upper{padding-top: 30px;
+    padding-bottom: 150px;
+}
+.left{
+    padding:50px 20px 80px;
+}
+.left>h1,#middle>h2, .access>h4{
+    font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+}
+.left>p,.About>p,.testimonial>h3, .access>p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.left>.email{
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #1b1a1a;
+}
+.left>.btn {
+    width: 30%;
+    border-radius: 2px;
+}
+
+ .right>img{
+    width: 500px;
+    margin: 0 40px;
+ }
+ /* CURVE */
+ .curve{
+    padding: 40px;
+ }
+ 
+ 
+ /* MIDDLE */
+ #middle{
+    background-color:hsl(240, 75%, 98%) ;
+ }
+ 
+ .middle>.productive>h2 {margin-bottom: 10px;
+     font-size: 2.3rem;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+    
+ }
+.About{
+    padding:80px 50px;
+}
+
+ .image>img{padding-top: 90px;
+    width: 450px;
+        margin: 0 40px;
+ }
+
+ .testimonial{padding: 20px;
+    margin-top: 20px;
+    width: 75%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 10px 10px 10px hsl(240, 75%, 98%);
+
+ }
+  .about>img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .name>h4{
+    font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        font-size: 1rem;
+        position: relative;
+            top: 5px;
+
+  }
+   .name>span{position: relative;
+    bottom: 12px;
+    font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 0.6rem;
+   }
+
+   /* ACCESS */
+   #access{display: flex;
+    justify-content: space-between;
+    background-color:hsl(238, 22%, 44%);
+    padding: 90px 50px 50px 50px;
+    color: #fff;
+   }
+
+   .access>p{
+    font-size: 0.8rem;
+    width: 400px;
+   }
+
+   .checkin .email{
+    width: 400px;
+        padding: 10px;
+        border: 1px solid #1b1a1a;
+   }
+   .checkin>.btn{
+    border-radius: 2px;
+   }
+
+   /* FOOTER */
+
+   footer{background-color: hsl(243, 87%, 12%);
+    padding: 80px 0 40px;
+    color: #fff;
+    line-height: 1.5;
+   }
+   .phone,.Email{
+    font-size: 0.9rem;
+   }
+    .phone>a,.Email>a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+
+   .info>h5,.contact>h5{
+    font-size: 0.9rem;
+   }
+
+   
+   .icons{margin-right: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+   }
+   .icons>i{
+   margin: auto;
+    position: relative;
+        left: 8px;
+        top: 2px;
+        
+    
+        font-size: 0.9rem;
+
+   }
+
+
+   /* MEDIA QUERIES */
+
+   @media (max-width: 768px) {
+
+    .navbar-brand>img{
+        width: 80px;
+    }
+
+    /* UPPER */
+
+      #Upper {padding: 30px;
+        flex-direction: column-reverse;
+        text-align: center;
+      }
+      .right>img{
+        width: 290px;
+        margin: auto;
+        padding: 20px 0;
+      }
+      .left{
+        text-align:center ;
+      }
+      .left>h1{
+        font-size: 1.5rem;
+        width: 300px;
+      }
+      .left>p{
+        font-size: 1.1rem;
+        font-weight: 500;
+        width: 300px;
+        padding: 20px 10px;
+      }
+      .left>.email{
+        width: 100%;
+        margin-bottom: 15px;
+      }
+       .left>.btn{
+        width: 100%;
+       }
+
+       /* MIDDLE */
+
+       .curve{
+      
+       }
+       .middle{
+            flex-direction: column-reverse;
+       }
+       .image>img{
+             width: 290px;
+       }
+       .About{
+        padding: 50px 20px;
+       }
+       .middle>.productive>h2{
+        font-size: 0.9rem;
+        font-family:'Raleway', sans-serif ;
+        font-weight: 700;
+        padding: 20px;
+       }
+        .middle>.productive>p{
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+        .middle>.productive>a{
+            display: flex;
+            padding: 20px;
+            justify-content: center;
+            text-decoration: underline;
+          color:#4fdf4f ;
+        }
+        .testimonial{
+            width: 90%;
+            margin: 40px 10px;
+        } 
+        .testimonial>h3{font-size: 0.7rem;
+            line-height: 1.7;
+          
+        }
+
+        /* ACCESS */
+
+        #access{padding:40px 40px 80px 40px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .access>p {margin: auto;
+            font-size: 0.8rem;
+            width: 280px;
+        }
+        .checkin .email {font-size: 0.7rem;
+            width: 100%;
+        }
+        
+        .checkin>.btn {font-size: 0.8rem;
+           width: 100%;
+        }
+
+        /* FOOTER */
+
+        footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding:100px 40px 20px 40px;
+        }
+        .fylo>.logo{
+            width: 150px;
+            color: #fff;
+        }
+        .socials{
+            margin: auto;
+        }
+    
+         
+   }
